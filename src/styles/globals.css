@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+.scratch {
+    position: relative;
+}
+
+.scratch:before {
+    content: "";
+    background-color:#673ab7;
+    height: 1.1em;
+    position: absolute;
+    z-index: -1;
+    filter: url(#marker-shape);
+    left: -0.5em;
+    right: -0.5em;
+    top: 0;
+}
